@@ -1,5 +1,5 @@
 {% set name = "napari-nifti" %}
-{% set version = "0.0.11" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-nifti-{{ version }}.tar.gz
-  sha256: 86d05ad82d541045273a356df29ca8a256a862ea0351b6647b92db47a5764f3d
+  sha256: db39573ccdf51ee6414e865ae6d8853e765ab880cf7ad31f4d7cb684ef8e4788
 
 build:
   noarch: python
